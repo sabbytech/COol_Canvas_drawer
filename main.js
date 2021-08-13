@@ -30,7 +30,7 @@ function my_mousemove(e) {
     currentx= e.clientX - my_canvas.ofsetLeft;
     currenty=e.clientY - my_canvas.ofsetTop;
 
-    if (mouseEvent = "mouseDown") {
+    if (mouseEvent == "mouseDown") {
     ctx.beginPath();
     ctx.strokeStyle = pen_color;
     ctx.lineWidth = pen_width;
